@@ -27,6 +27,7 @@ body {
   font-size: 14px;
   height: 1100px;
   padding: 30px 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -44,8 +45,13 @@ body {
   text-align: right;
 }
 
+@media (max-width: 991px) {
+  .text-right {
+  text-align: left;
+}
+
 .header {
-  height: 150px;
+  height: 180px;
 }
 
 .experience {
