@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get '/online_resumes' => 'online_resumes#index'
   post '/online_resumes' => 'online_resumes#create'
   get '/' => 'pages#index'
-  get '/jess' => 'pages#jess'
+  get '/jess_edits' => 'pages#jess'
 
 
 end
