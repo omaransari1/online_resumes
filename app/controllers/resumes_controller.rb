@@ -1,6 +1,5 @@
 class ResumesController < ApplicationController
-	def 'index.html.erb'
+	def index
+    render 'index.html.erb'
 	end
-
-	
 end
