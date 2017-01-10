@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get '/' => 'pages#index'
   get '/jess_edits' => 'pages#jess'
   get '/jess' => 'pages#jess'
-  patch '/online_resumes/:id' => 'online_resumes#update'
-  delete '/online_reumes/id' => 'online_resumes#destroy'
+ 
 
 end
