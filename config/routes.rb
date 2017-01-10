@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   post '/online_resumes' => 'online_resumes#create'
   get '/' => 'pages#index'
   get '/jess_edits' => 'pages#jess'
-
+  get '/jess' => 'pages#jess'
+  patch '/online_resumes/:id' => 'online_resumes#update'
+  delete '/online_reumes/id' => 'online_resumes#destroy'
 
 end
