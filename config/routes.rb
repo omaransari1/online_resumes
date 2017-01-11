@@ -4,5 +4,6 @@ Rails.application.routes.draw do
 
   get '/online_resumes' => 'resumes#index'
   get '/resumes' => 'angular_resumes#index'
+  get '/online_resumes/:id' =>'resumes#show'
 
 end
