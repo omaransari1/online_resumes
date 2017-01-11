@@ -32,7 +32,6 @@ body {
 
 
 .twitter-wrapper {
-  background-color: orange;
   margin-left:0px;
 }
 
@@ -53,5 +52,6 @@ body {
   height: 180px;
 }
 
-.experience {
+.padding30 {
+  padding: 30px 0;
 }
