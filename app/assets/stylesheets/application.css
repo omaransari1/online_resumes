@@ -32,10 +32,7 @@ body {
 
 
 .twitter-wrapper {
-  background-color: orange;
   margin-left:0px;
-  padding: 10px;
-  height: 1100px;
 }
 
 .bold {
@@ -55,5 +52,6 @@ body {
   height: 180px;
 }
 
-.experience {
+.padding30 {
+  padding: 30px 0;
 }
